@@ -14,3 +14,8 @@ function whileLoop(n) {
   return `done`
 }
 
+function doWhileLoop(num) {
+  do {
+    console.log("I fun once regardless.");
+  } while (incrementVariable() < num);
+}
